@@ -1,0 +1,25 @@
+#blocco1 {
+    height: 500px;    
+}
+
+.roma {
+    background-image: url(immagini/roma.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    
+}
+
+.copenaghen {
+    background-image: url(immagini/copenaghen.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.tokyo {
+    background-image: url(immagini/tokyo.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
