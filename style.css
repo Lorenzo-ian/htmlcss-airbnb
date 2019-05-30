@@ -1,31 +1,40 @@
 * {
-    padding: 0;
-    margin: 0;
-}
-.blocco {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
+    margin:0;
+    padding:0;
 }
 
-.roma {
-    background-image: url(immagini/roma.jpg);
+/* Creo un blocco unico per i contenitori */
+
+.blocco {
     height: 100vh;
     width: 100vw;
     background-size: cover;
+    position: relative;
     
 }
 
-.copenaghen {
-    background-image: url(immagini/copenaghen.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
+/* Contenitori img background */
+
+.roma {
+    background-image: url(immagini/roma.jpg);
 }
 
+
+.copenaghen {
+    background-image: url(immagini/copenaghen.jpg);   
+}
+
+
 .tokyo {
-    background-image: url(immagini/tokyo.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
+    background-image: url(immagini/tokyo.jpg);    
+}
+ 
+/* Metto un titolo con una classe univoco */
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
 }
